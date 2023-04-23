@@ -1,0 +1,75 @@
+.stats-parent{
+        margin:80px 180px;
+        border:2px solid blue;
+    }
+.stats-elements-parent{
+    display: flex;
+    justify-content: space-around;
+}
+.stats-elements{
+    margin-top:30px;
+}
+/* stats heading */
+.stats-heading1{
+    margin-top:0px;
+    margin-bottom: 5px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #2379F9;
+    text-align: center;
+}
+.stats-heading2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 5px;
+}
+
+.stats-heading3{
+    margin: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+/* stats elements */
+.stats-elements-description1{
+    border:1px solid #2379F9;
+    border-radius: 10px;
+    width:130px;
+    height: 90px;
+    border-radius:400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    padding-top: 40px;
+    text-align: center;
+    color: #000000;
+    background: #E3E3E3;
+}
+.stats-elements-description2{
+    color: #2379F9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/*we can create a mixin for circle probably*/

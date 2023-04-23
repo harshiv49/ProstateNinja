@@ -1,0 +1,124 @@
+.questions-parent{
+    margin:104px 134px;
+    border: 2px solid blue;
+}
+
+
+.questions-heading1{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #2379F9;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.questions-heading2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #1D1C1C;
+}
+
+.questions-container-parent{
+    display: flex;
+    
+}
+.questions-container1{
+    margin:20px 36px;
+    width:40%;
+}
+.questions-container2{
+    width: 400px;
+}
+
+.questions-container1-heading{
+    margin:0px;
+    
+}
+
+
+/* sub questions */
+.sub-questions-heading-icon{
+    margin-top:4px;
+    
+}
+.sub-questions-heading-container1{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #2379F9;
+}
+
+.sub-questions-container1{
+    display: flex;
+}
+.sub-questions-container2-hidden-divider
+{
+    width:580px;
+}
+.sub-questions-container2{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #1D1C1C;
+    display: flex;
+    width:580px;
+    margin-top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.sub-questions-container2-hidden{
+    display: flex;
+}
+
+.sub-questions-container2-question-hidden{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #1D1C1C;
+}
+
+.sub-questions-container2-answer-hidden{
+    padding:0px 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-transform: capitalize;
+
+    /* Semi-Text */
+
+color: rgba(0, 0, 0, 0.46);
+}
+
+/*Sub Questions*/
+.sub-questions-container2-icons{
+    color:#2379F9;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-right:10px;
+    margin-left: 10px;
+}

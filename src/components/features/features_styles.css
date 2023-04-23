@@ -1,0 +1,75 @@
+.features-parent{
+ 
+    margin:80px 270px;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.features-illustrations{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}  
+
+.features-illustrations-elements{
+    width: 140px; 
+    height:215px;   
+} 
+.features-illustrations-images{
+    width: 120px; 
+    height:130px;  
+    background: #f6f6f6;
+    padding: 10px;
+    border:2px solid #2379F9;
+    border-radius: 12px;
+} 
+.features-illustrations-elements p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+    color: #2379F9;
+}
+
+.features-heading2{
+    margin:5px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.features-heading3{
+    margin:5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+    }   
+
+.features-heading1{
+    margin:5px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    /* Primary Color 1 */
+
+    color: #2379F9;
+}

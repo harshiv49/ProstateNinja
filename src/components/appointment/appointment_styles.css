@@ -1,0 +1,80 @@
+.appointment-parent{
+        display: flex;
+        margin:104px 134px;
+        border: 2px solid blue;
+}
+/* appointment-info */
+.appointment-info{
+       width: 50%;
+       margin-right:129px;
+}
+
+.appointment-info-heading1{
+        font-family: 'Teko';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+        text-transform: capitalize;
+
+        /* Primary Color 1 */
+        margin:5px;
+        color: #2379F9;
+}
+
+.appointment-info-heading2{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 54px;
+        text-transform: capitalize;
+        margin:5px;
+        color: #000000;
+}
+
+
+.appointment-info-heading3{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: justify;
+        margin:5px;
+        color: #838383;
+}
+
+
+/* appointment-form */
+.appointment-form-policy{
+        display: flex;
+}
+.appointment-form-radio-buttons{
+       margin: 5px;
+}
+.appointment-form{
+        margin-top:18px;
+}
+
+.appointment-form-input{
+        width: 100%;
+        margin-top: 20px;
+        height: 42px;
+        outline:none;
+        border:2px solid #2379F9;
+        border-radius:12px ;
+}
+.appointment-form-button{
+        width: 102%;
+        margin: 10px 0px;
+        height: 42px;
+        outline:none;
+        border-radius:5px ;
+        background: #D9D9D9;
+        border-radius: 12px;
+        border:none;
+        color:#403f3f;
+}

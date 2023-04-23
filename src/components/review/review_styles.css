@@ -1,0 +1,127 @@
+.review-parent{
+    display: flex;
+    margin:104px 134px;
+    border: 2px solid blue;
+}
+
+/* review card */
+.review-card-person{    
+    display:flex;
+
+}
+
+.review-card{
+  
+    width: 320px;
+    height: 165px;
+    margin:15px;
+    background: #F9F7FF;
+    box-shadow: 0px 1.02006px 6.12034px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.review-card-stars{
+    margin: 0px;
+    padding-left: 10px;
+    padding-top:5px ;
+    color: #FFC638;
+}
+.review-card-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    color: #838383;
+    padding: 10px;
+    margin:0px;
+}
+.review-card-person-image{
+    width: 24px;
+    height: 24px;
+}
+.review-card-person{
+    margin:15px;
+}
+.review-card-person-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    text-align: justify;
+    margin: 0px;
+}
+.review-card-person-occupation{
+        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: justify;
+    margin:0px;
+    padding:0px;
+    /* Primary Color 1 */
+    color: #2379F9;
+}
+
+
+
+/*review view all section*/
+.review-view-all{
+    width:100%;
+    margin-right:50px;
+}
+.review-view-all-heading1{
+   color: #2379F9;
+   font-family: 'Teko';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 13px;
+    margin:0px;
+    padding:0px;
+}
+
+.review-view-all-heading2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+    /* identical to box height */
+    text-transform: capitalize;
+    margin:0px;
+    padding:10px 0px;
+}
+
+.review-view-all-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #838383;
+    margin-top: 5px;
+}
+.review-view-all-button{
+    display: flex;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    margin-top:40px; 
+    padding:15px 155px;
+    width: 434px;
+    height: 56px;
+    background: #2379F9;
+    border:none;
+    border-radius: 12px;
+    color:white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight:600;
+}

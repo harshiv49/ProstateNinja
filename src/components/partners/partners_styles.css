@@ -1,0 +1,72 @@
+.partners-parent{
+    text-align: center;
+    margin:104px 134px;
+   
+}
+
+.partners-images{
+    background: rgba(225, 225, 225, 0.1);
+    box-shadow: inset 32px -23px 36px rgba(165, 165, 165, 0.1), inset -23px 23px 117px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(23px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 30px;
+    /* Note: backdrop-filter has minimal browser support */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*we can create a mixin class here*/
+.partners-images-1{
+    padding: 20px;
+    width: 72px;
+    height: 72px;
+}
+
+
+.partners-images-2{
+    padding: 20px;
+    width: 230px;
+    height: 72px;
+}
+
+
+.partners-images-3{
+    padding: 20px;
+    width: 174px;
+    height: 72px;
+}
+
+
+
+.partners-heading2{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 50px;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+    margin:5px;
+}
+
+
+.partners-heading1{
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 30px */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #2379F9;
+    margin:5px;
+}

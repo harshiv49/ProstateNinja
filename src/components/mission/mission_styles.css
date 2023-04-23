@@ -1,0 +1,73 @@
+.mission-parent{
+    text-align: center;
+    margin:104px 134px;
+    border: 2px solid blue;
+}
+
+.mission-heading1{
+    margin-top: 0px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #2379F9;
+}
+
+.mission-heading2{
+    margin: 5px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+.mission-heading3{
+    
+    margin: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    /* BLACK (#00000) */
+
+    color: #000000;
+    
+}
+.mission-elements-parent{
+    display: flex;
+    justify-content: space-around;
+}
+.mission-elements-description1{
+        border:1px solid #2379F9;
+        border-radius: 10px;
+        width:130px;
+        height: 90px;
+        border-radius:400px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        padding-top: 40px;
+        text-align: center;
+        color: #000000;
+        background: #E3E3E3;
+}
+.mission-elements-description2{
+    color: #2379F9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
